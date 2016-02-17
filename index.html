@@ -1,0 +1,62 @@
+<!doctype html>
+<br class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Inicio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<br>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu">
+    <div class="container">
+        <a class="navbar-brand" href="#">CRM</a>
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="#/">Home</a>
+            </li>
+            <li>
+                <a href="#contactos">Contactos</a>
+            </li>
+            <!--<li>
+                <a href="#altaContacto">Alta Contacto</a>
+            </li> -->
+            <li>
+                <a href="#ordenes">Todas las Ordenes</a>
+            </li>
+
+        </ul>
+    </div>
+
+</nav>
+</br>
+
+<div class="container">
+    
+    <div id="views"></div>
+    
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootbox.js"></script>
+<script src="js/sait/sait-routing.js"></script>
+<script src="core/init.js"></script>
+<!--Controladores-->
+<script src="views/contactos/contactos.js"></script>
+<script src="views/ordenes/ordenes.js"></script>
+
+
+
+<!--./controladores-->
+<script src="core/routing.js"></script>
+</body>
+</html>
